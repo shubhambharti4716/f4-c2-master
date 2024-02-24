@@ -1,0 +1,29 @@
+.App{
+ padding:2rem;
+ overflow-x: auto;
+}
+td,
+th{
+  padding: 1rem 0;
+}
+th{
+  color: rgb(189, 189, 189);
+}
+table{
+  border-collapse: collapse;
+  color: #fff;
+  font-size: 1.3em;
+  width: 100%;
+}
+td{
+  text-align: center;
+}
+tr{
+  border-bottom: 1px solid white;
+}
+td:first-child{
+  text-align-last: left;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
